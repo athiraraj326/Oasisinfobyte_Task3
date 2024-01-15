@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body {
+    background-color: rgb(37, 37, 37);
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+
+#container {
+    max-width: 600px;
+    margin: auto; 
+}
+
+label {
+    display: block;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+#title, #description, #date, #priority {
+    border: none;
+    font-size: 16px;
+    background-color: rgb(214, 213, 213);
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #919191;
+    color: black;
+    border-radius: 4px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #afafaf;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border: 1px solid #ddd;
+    color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+#addbtn {
+    background-color: #29ad30;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#addbtn:hover {
+    background-color: #68dd6e;
+}
+
+#taskbtn{
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-right: 10px;
+    background-color: rgb(228, 89, 170);
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#taskbtn:hover {
+    background-color: rgb(199, 144, 162);
+}
